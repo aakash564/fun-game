@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comet Catchers</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "nipplejs": "https://esm.sh/nipplejs",
+                "three": "https://esm.sh/three"
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="game-canvas"></canvas>
+        <div id="ui-overlay">
+            <div id="score-display">Score: 0</div>
+            <div id="leaderboard">
+                <h3>Leaderboard</h3>
+            </div>
+            <div id="mobile-controls"></div>
+        </div>
+    </div>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
+
